@@ -121,7 +121,7 @@ const WorkshopSection: React.FC = () => {
       <Box
         sx={{
           display: "grid",
-          gridTemplateColumns: "2fr 3fr",
+          gridTemplateColumns: { xs: "1fr", sm: "2fr 3fr" },
           gap: "2rem",
         }}
       >
